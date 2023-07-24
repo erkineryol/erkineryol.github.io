@@ -801,6 +801,13 @@ main {
   line-height: 1.6;
 }
 
+.paper {
+    color: var(--light-gray);
+    list-style: square outside;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
 .timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
